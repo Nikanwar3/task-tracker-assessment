@@ -29,7 +29,7 @@ def get_all_tasks(status=None, priority=None):
 
 
 def get_task_by_id(task_id):
-    task = Task.query.get(task_id)
+    task = db.session.get(Task, task_id)
     if not task:
         raise TaskNotFoundError(f"Task {task_id} not found.")
     return task
