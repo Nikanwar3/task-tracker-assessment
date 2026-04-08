@@ -173,7 +173,7 @@ Expected output: **15 passing tests**
 | Read                | Get by ID, 404 on unknown ID, list all, filter by status, invalid filter |
 | Update              | Success, reject edit of archived task               |
 | Status transitions  | Valid transition, invalid transition, restore archived |
-| Delete              | Success, 404 on unknown ID                          |
+| Delete              | Success, 404 on unknown IDs                         |
 
 ---
 
