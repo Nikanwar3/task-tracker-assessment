@@ -207,7 +207,7 @@ AI was used as a coding assistant under explicit constraints (see `AGENTS.md` an
 | Service layer exception types | Confirmed all exceptions are caught in routes with correct HTTP codes |
 | Status transition map | Cross-checked against assessment rules and frontend constants |
 | Test file structure | Added missing transition tests; renamed tests for clarity |
-| CSS layout | Adjusted spacing, badge colors, and modal behavior |
+| CSS layout | Adjusted spacing, badge colors, and modal behavior. |
 
 Every AI-generated file was reviewed line-by-line using the checklist in `ai-prompts/ai-review-checklist.md` before being accepted.
 
