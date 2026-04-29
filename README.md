@@ -106,7 +106,7 @@ npm install
 npm run dev
 ```
 
-UI runs at **http://localhost:3000**
+UI runs at local host **http://localhost:3000**
 
 ---
 
