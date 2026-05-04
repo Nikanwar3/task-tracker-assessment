@@ -114,7 +114,7 @@ UI runs at local host **http://localhost:3000**
 
 SQLite is used by default. The database file (`backend/tasks.db`) is created automatically on first run via `db.create_all()`.
 
-To switch to PostgreSQL, set the environment variable before starting the server:
+To switch to PostgreSQL, set the environment variables before starting the server:
 
 ```bash
 export DATABASE_URL="postgresql://user:password@localhost/tasktracker"
