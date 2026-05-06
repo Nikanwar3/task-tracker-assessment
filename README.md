@@ -209,13 +209,13 @@ AI was used as a coding assistant under explicit constraints (see `AGENTS.md` an
 | Test file structure | Added missing transition tests; renamed tests for clarity |
 | CSS layout | Adjusted spacing, badge colors, and modal behavior. |
 
-Every AI-generated file was reviewed line-by-line using the checklist in `ai-prompts/ai-review-checklist.md` before being accepted.
+Every AI-generated file was reviewed line-by-line using the checklist in `ai-prompts/ai-review-checklist.md` before being accepted.   
 
 ---
 
 ## Known Limitations and Future Improvements
 
-- **No authentication** — all tasks are global; a `user_id` FK and JWT auth would scope tasks per user
+- **No authentication** — all tasks are global; a `user_id` FK and JWT auth would scope tasks per users.
 - **No pagination** — a large task list would need cursor-based pagination on `/tasks`
 - **No soft-delete** — delete is permanent; an `is_deleted` flag would allow recovery
 - **SQLite not suitable for production** — concurrent writes will serialize; move to PostgreSQL
