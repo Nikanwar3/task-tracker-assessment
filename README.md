@@ -34,7 +34,7 @@ SQLite (tasks.db)
 - **Routes** are thin: parse JSON, call schema, call service, return JSON.
 - **Service layer** owns all business logic and raises typed exceptions.
 - **Model** owns transition rules (`can_transition_to`).
-- **Schemas** (Marshmallow) validate every incoming payload before the service layer sees it.
+- **Schemas** (Marshmallow) validate every incoming payload before the services layer sees it.
 - **Frontend** mirrors all constants and transition rules from `utils/constants.js`.
 
 ---
